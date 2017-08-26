@@ -1,0 +1,83 @@
+{
+  "intents": [
+    {
+      "intent": "AMAZON.CancelIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "setOutput",
+      "slots": [
+        {
+          "name": "output",
+          "type": "OUTPUT"
+        }
+      ]
+    },
+    {
+      "intent": "setTime",
+      "slots": [
+        {
+          "name": "time",
+          "type": "AMAZON.DURATION"
+        }
+      ]
+    },
+    {
+      "intent": "setDistance",
+      "slots": [
+        {
+          "name": "distance_number",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "distance_unit",
+          "type": "DISTANCE_UNIT"
+        }
+      ]
+    },
+    {
+      "intent": "setEvent",
+      "slots": [
+        {
+          "name": "event",
+          "type": "EVENT"
+        }
+      ]
+    },
+    {
+      "intent": "setPace",
+      "slots": [
+        {
+          "name": "pace_duration",
+          "type": "AMAZON.DURATION"
+        },
+        {
+          "name": "pace_unit",
+          "type": "DISTANCE_UNIT"
+        }
+      ]
+    },
+    {
+      "intent": "setSpeed",
+      "slots": [
+        {
+          "name": "speed_number",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "speed_distance_unit",
+          "type": "DISTANCE_UNIT"
+        },
+        {
+          "name": "speed_time_unit",
+          "type": "TIME_UNIT"
+        }
+      ]
+    }
+  ]
+}

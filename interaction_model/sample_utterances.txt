@@ -1,0 +1,17 @@
+setOutput {output}
+setOutput finish {output}
+setOutput total {output}
+setOutput average {output}
+
+setTime {time}
+
+setDistance {distance_number} {distance_unit}
+
+setEvent {event}
+setEvent use a {event}
+
+setPace {pace_duration} {pace_unit}
+setPace {pace_duration} per {pace_unit}
+
+setSpeed {speed_number} {speed_distance_unit} per {speed_time_unit}
+setSpeed {speed_number} {speed_distance_unit} an {speed_time_unit}
