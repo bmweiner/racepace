@@ -1,4 +1,5 @@
 import os
+import json
 import skillful
 import utils
 
@@ -72,6 +73,6 @@ def handler(event, context):
     response = skill.process(event)
 
     if response:
-        return response
+        return json.loads(response)  # lambda encodes returned value
     else:
         raise ValueError("Invalid Application ID")
